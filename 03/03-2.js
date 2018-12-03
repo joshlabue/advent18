@@ -40,5 +40,5 @@ for(i in area) {
 }
 
 for(i in claims) {
-    if(claims[i].target != 'delete') console.log(claims[i]);
+    if(claims[i].target != 'delete') console.log(claims[i].id);
 }

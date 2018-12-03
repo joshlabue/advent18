@@ -17,7 +17,6 @@ for(i in input) {
 
 for(i in claims) {
     for(var w = 0; w < claims[i].width; w++) {
-        console.log(w);
         if(area[claims[i].x + w] == undefined) area[claims[i].x + w] = [];
         for(var h = 0; h < claims[i].height; h++) {
             if(area[claims[i].x + w][claims[i].y + h] == undefined) area[claims[i].x + w][claims[i].y + h] = 0;
